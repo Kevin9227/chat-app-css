@@ -1,0 +1,65 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .borda{
+        margin-left: -100px;
+        width:450px;
+        height: 550px;
+        border-bottom-right-radius:100% ;
+        border-bottom-left-radius:100% ;
+        background: linear-gradient(to top, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+    }
+    .conteudo{
+        position: relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        top: -400px;
+       
+    }
+    .celular{
+        width:270px;
+        height: 520px;
+        border: solid 15px #fff;
+        /* top: 50px; */
+        left: 300px;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        box-shadow: 5px 5px 20px 1px  #000000;
+    }
+    .branco{
+        position: relative;
+        z-index:1 ;
+        width:150px;
+        height: 35px;
+        top: -10px;
+        left: 55px;
+        border-radius: 50px;
+    /*  border-top-left-radius: 20%;
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%; */
+        background-color: #fff;
+    }
+    .tela{
+        position: relative;
+        z-index:-1 ;
+        width:270px;
+        height: 80px;
+        top: -50px;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        background: linear-gradient(to left , hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+    }
+
+    .texto{
+        width: 450px;
+        padding: 70px;
+    }
