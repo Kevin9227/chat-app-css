@@ -32,6 +32,11 @@
         border-bottom-right-radius: 10%;
         box-shadow: 5px 5px 20px 1px  #000000;
     }
+    .ftela{
+        width: 270px;
+        height: 520px;
+        background-color: blue;
+    }
     .branco{
         position: relative;
         z-index:1 ;
